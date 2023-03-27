@@ -1,0 +1,291 @@
+body { font-family: Montserrat;
+	text-align: center;
+	margin: 3em;
+
+background-color:black;}
+h1 {font-family: Montserrat, Arial;
+color: white;
+text-align: left-side;
+padding: 60;
+font-size: 50;
+position: relative;
+right: 20%;
+}
+h2 {font-family: "Brush Script Mt", Arial;
+font-size:30pt;
+  color:white;
+  text-align: center;
+  opacity: 0.5;
+}
+h3 {font-family: "Brush Script Mt", Arial;
+  font-size:25pt;
+  color:#7E070F;
+  position: relative;
+  right: 20%;
+}
+
+#nav {
+	width: 100%;
+	position: center;
+}
+#nav ul {
+	text-align:center;
+	margin: 10px;
+	padding: 6em 10;
+	list-style: none;
+	line-height: 1.8em;
+	position: relative;
+	left: 10px;
+	background-image: url(partitura.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border-radius: 25px;
+	
+}
+#nav li {
+display: inline-block;
+margin: 4px;
+
+}
+#nav a {display:block;
+margin: 5;
+padding: 20;
+text-decoration: none;
+border-radius: 50px/50px;
+}
+#nav a:link, #nav a:visited {
+	background:#7E070F;
+	color: white;
+	opacity: 0.8;
+	border: 1px solid #000;
+	border-right: 5px solid #ba000;
+}
+#nav a:hover {
+	color: #7E070F;
+	background: white;
+	opacity: 0.8;
+	border: 1px solid #000;
+	border-right: 5px solid #ba000;
+}
+#Recital {
+	background-image: url("Recital.jpg");
+	margin: 0px;
+	padding: 6em 10;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	position: center;
+	border-radius: 25px;
+}
+#footer {
+	clear: both;
+	background-color: white;
+	text-align: center;
+	color: #7E070F;
+	padding: 30;
+	margin-top: 50px;
+	border-radius: 25px;
+	opacity: 0.4;
+	font-weight: bold;
+
+}
+#repertoire {
+	background-color: white;
+	width: 100%;
+	border-radius: 25px;
+	position: center;
+}
+#table1 {
+	float: left;
+	width: 47%;
+	margin: 10px;
+	position: relative;
+	top: 20%;
+	padding: 0;
+	border-radius: 25px;
+}
+#table2 {
+	float: right;
+	width: 47%;
+	margin: 10px;
+	padding: 0;
+	border-radius: 25px;
+}
+	
+#table1 th {
+	background-color: #7E070F;
+	text-align: center;
+	color: white;
+	padding: 12px;
+	opacity: 0.9;
+}
+#table2 th {
+	background-color: #7E070F;
+	text-align: center;
+	color: white;
+	padding: 12px;
+	opacity: 0.9;
+	
+}
+#table1 tr {
+	background-color: #FFC7CB;
+	text-align: center;
+	color: #7E070F;
+	padding: 12px;
+	margin: 2px;
+	opacity: 0.9;
+	width: 90%;
+	
+}
+#table2 tr {
+	background-color: #FFC7CB;
+	text-align: center;
+	color: #7E070F;
+	padding: 2em;
+	margin: 2px;
+	opacity: 0.9;
+	width: 90%;
+}
+
+#TableCaption {
+	background-color: #7E070F;
+	text-align: center;
+	font-style: bold;
+	font-size: 25pt;
+	color: white;
+	margin-bottom: 20px;
+	width: 80%;
+	padding: 1em;
+	border-radius: 25px;
+	position: center;
+	opacity: 0.8;
+	font-family: "Brush Script Mt", Arial;
+}
+#TableCaption2 {
+	background-color: #7E070F;
+	text-align: center;
+	font-style: bold;
+	font-size: 25pt;
+	color: white;
+	margin-bottom: 20px;
+	width: 98%;
+	padding: 0.5em;
+	border-radius: 25px;
+	position: center;
+	font-family: "Brush Script Mt", Arial;
+	opacity: 0.9;
+}
+#logo {float: left;
+width: 400px;
+margin-bottom: 0px;
+margin-right: 0;
+margin-top: 0;
+padding: 6px;
+position: relative;
+top: 10%;
+z-index: 1;
+}
+
+#TableMedia {
+	background-color: black;
+	text-align: center;
+	color: white;
+	width: 100%;
+	margin: 10px;
+	padding: 4em;
+	border-radius: 25px;
+	position: center;
+}
+#TableMedia tr {
+	padding: 50px;
+	margin: 2px;
+	width: 100%;
+}
+video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+#sect1 {
+  position: relative;
+  overflow: hidden;
+ border-radius: 25px;
+}
+
+#home {
+	font-size: 30pt;
+	font-weight: bold;
+	color: black;
+	background-color: white;
+	opacity: 0.5;
+	padding: 3em;
+	margin: 10px;
+	border-radius: 25px;
+	position: center;
+	font-family: "Brush Script Mt", Arial;
+}
+#home2 {
+	font-size: 40pt;
+	color: white;
+	opacity: 0.5;
+	padding: 2em;
+	margin: 15px;
+	position: center;
+	font-family: "Brush Script Mt", Arial;
+}
+#form {
+	position: relative;
+right: 20%;
+padding: 1em;
+color: #7E070F;
+font-weight: bold;
+}
+#bio {
+	background-image: url(biophoto.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 25px;
+	padding: 14em 12;
+	margin: 10px;
+	 
+}
+#biotext {
+	color: white;
+	font-family: Montserrat;
+	position: relative;
+	right: 20%;
+	font-size: 14pt;
+}
+#wrap {
+	margin:20px auto;
+	text-align:center;}
+	
+a.btn {
+	font-family: Montserrat,sans-serif;
+	transition: all 0.3s ease-out;
+	text-transform: uppercase;
+	text-decoration: none;
+	display:inline-block;
+	letter-spacing:.5px;
+	border-radius: 25px;
+	padding:20px 30px 20px 44px;
+	position:relative;
+	font-weight: 700;
+	font-size: 30pt;
+	margin: 10px;
+	color: white;
+	background:#7E070F;
+	box-shadow:inset 0 0 0 #EE0010;
+}
+	
+a.btn:hover {background:#d90111;color:#fff;box-shadow:inset 0px -50px 0px #EE0010;}
+
+a.btn:active {color:#d90111;box-shadow:inset 0px -50px 0px #f5f7fa;}
+	
+	
