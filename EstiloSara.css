@@ -5,9 +5,9 @@ body { font-family: Montserrat;
 background-color:black;}
 h1 {font-family: Montserrat, Arial;
 color: white;
-text-align: left-side;
-padding: 60;
-font-size: 50;
+text-align: center;
+padding: 60px;
+font-size: 50px;
 position: relative;
 right: 20%;
 }
@@ -26,12 +26,12 @@ h3 {font-family: "Brush Script Mt", Arial;
 
 #nav {
 	width: 100%;
-	position: center;
+	position: relative;
 }
 #nav ul {
 	text-align:center;
 	margin: 10px;
-	padding: 6em 10;
+	padding: 6em 10em;
 	list-style: none;
 	line-height: 1.8em;
 	position: relative;
@@ -49,8 +49,8 @@ margin: 4px;
 
 }
 #nav a {display:block;
-margin: 5;
-padding: 20;
+margin: 5px;
+padding: 20px;
 text-decoration: none;
 border-radius: 50px/50px;
 }
@@ -59,24 +59,22 @@ border-radius: 50px/50px;
 	color: white;
 	opacity: 0.8;
 	border: 1px solid #000;
-	border-right: 5px solid #ba000;
 }
 #nav a:hover {
 	color: #7E070F;
 	background: white;
 	opacity: 0.8;
 	border: 1px solid #000;
-	border-right: 5px solid #ba000;
 }
 #Recital {
 	background-image: url("Recital.jpg");
 	margin: 0px;
-	padding: 6em 10;
+	padding: 6em 0.9em;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	width: 100%;
-	position: center;
+	position: relative;
 	border-radius: 25px;
 }
 #footer {
@@ -84,7 +82,7 @@ border-radius: 50px/50px;
 	background-color: white;
 	text-align: center;
 	color: #7E070F;
-	padding: 30;
+	padding: 30px;
 	margin-top: 50px;
 	border-radius: 25px;
 	opacity: 0.4;
@@ -95,7 +93,7 @@ border-radius: 50px/50px;
 	background-color: white;
 	width: 100%;
 	border-radius: 25px;
-	position: center;
+	position: relative;
 }
 #table1 {
 	float: left;
@@ -149,31 +147,55 @@ border-radius: 50px/50px;
 	width: 90%;
 }
 
-#TableCaption {
+#TableCaptionA {
 	background-color: #7E070F;
 	text-align: center;
-	font-style: bold;
 	font-size: 25pt;
 	color: white;
 	margin-bottom: 20px;
-	width: 80%;
+	width: 90%;
 	padding: 1em;
 	border-radius: 25px;
-	position: center;
+	position: relative;
 	opacity: 0.8;
-	font-family: "Brush Script Mt", Arial;
+	font-family: "Brush Script Mt", Arial; 
 }
-#TableCaption2 {
+#TableCaptionB {
 	background-color: #7E070F;
 	text-align: center;
-	font-style: bold;
+	font-size: 25pt;
+	color: white;
+	margin-bottom: 20px;
+	width: 90%;
+	padding: 1em;
+	border-radius: 25px;
+	position: relative;
+	opacity: 0.8;
+	font-family: "Brush Script Mt", Arial; 
+}
+#TableCaption2A {
+	background-color: #7E070F;
+	text-align: center;
 	font-size: 25pt;
 	color: white;
 	margin-bottom: 20px;
 	width: 98%;
 	padding: 0.5em;
 	border-radius: 25px;
-	position: center;
+	position: relative;
+	font-family: "Brush Script Mt", Arial;
+	opacity: 0.9;
+}
+#TableCaption2B {
+	background-color: #7E070F;
+	text-align: center;
+	font-size: 25pt;
+	color: white;
+	margin-bottom: 20px;
+	width: 98%;
+	padding: 0.5em;
+	border-radius: 25px;
+	position: relative;
 	font-family: "Brush Script Mt", Arial;
 	opacity: 0.9;
 }
@@ -184,11 +206,11 @@ margin-right: 0;
 margin-top: 0;
 padding: 6px;
 position: relative;
-top: 10%;
+top: 60px;
 z-index: 1;
 }
 
-#TableMedia {
+#TableMediaA {
 	background-color: black;
 	text-align: center;
 	color: white;
@@ -196,7 +218,17 @@ z-index: 1;
 	margin: 10px;
 	padding: 4em;
 	border-radius: 25px;
-	position: center;
+	position: relative;
+}
+#TableMediaB {
+	background-color: black;
+	text-align: center;
+	color: white;
+	width: 100%;
+	margin: 10px;
+	padding: 4em;
+	border-radius: 25px;
+	position: relative;
 }
 #TableMedia tr {
 	padding: 50px;
@@ -227,7 +259,7 @@ video {
 	padding: 3em;
 	margin: 10px;
 	border-radius: 25px;
-	position: center;
+	position: relative;
 	font-family: "Brush Script Mt", Arial;
 }
 #home2 {
@@ -236,7 +268,7 @@ video {
 	opacity: 0.5;
 	padding: 2em;
 	margin: 15px;
-	position: center;
+	position: relative;
 	font-family: "Brush Script Mt", Arial;
 }
 #form {
@@ -251,7 +283,7 @@ font-weight: bold;
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-radius: 25px;
-	padding: 14em 12;
+	padding: 14em 13em;
 	margin: 10px;
 	 
 }
